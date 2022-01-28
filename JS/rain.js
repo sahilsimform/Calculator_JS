@@ -22,6 +22,3 @@ function rain() {
   }
 }
 rain();
-
-// https://www.youtube.com/watch?v=YhXxBhInJMI
-// https://www.youtube.com/watch?v=Q6FkM7CIKbc

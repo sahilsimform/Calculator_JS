@@ -151,9 +151,9 @@ function pasteButPress(): any {
 
 function MmPos(): any {
   total = 0;
-  stack1.push(screen1.value);
+  stack1.push(Number(screen1.value));
   console.log(stack1);
-  for (var val of stack1) {
+  for (let val of stack1) {
     total += parseInt(stack1[val]);
   }
   console.log(total);
@@ -188,4 +188,8 @@ function MmClear(): any {
 
 function evel1(): any {
   screen1.value = eval(screen1.value);
+}
+
+function clear1(): any {
+  screen1.value = "";
 }

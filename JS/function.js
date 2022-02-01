@@ -118,7 +118,7 @@ function pasteButPress() {
 }
 function MmPos() {
     total = 0;
-    stack1.push(screen1.value);
+    stack1.push(Number(screen1.value));
     console.log(stack1);
     for (var _i = 0, stack1_1 = stack1; _i < stack1_1.length; _i++) {
         var val = stack1_1[_i];
@@ -151,4 +151,7 @@ function MmClear() {
 }
 function evel1() {
     screen1.value = eval(screen1.value);
+}
+function clear1() {
+    screen1.value = "";
 }
